@@ -1,6 +1,6 @@
 {
-  "short_name": "hellw-world",
-  "name": "hellw-world",
+  "short_name": "hello-react-library",
+  "name": "hello-react-library",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",

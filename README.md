@@ -1,27 +1,30 @@
-# hellw-world
+# hello-react-library
 
-> 
+>
 
-[![NPM](https://img.shields.io/npm/v/hellw-world.svg)](https://www.npmjs.com/package/hellw-world) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/hello-react-library.svg)](https://www.npmjs.com/package/hello-react-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save hellw-world
+npm install --save hello-react-library
 ```
 
 ## Usage
 
 ```tsx
-import * as React from 'react'
+import * as React from "react";
 
-import MyComponent from 'hellw-world'
+import { CompA, CompB } from "hello-react-library";
 
-class Example extends React.Component {
-  render () {
+export default class App extends Component {
+  render() {
     return (
-      <MyComponent />
-    )
+      <div>
+        <CompA />
+        <CompB value="xyz" />
+      </div>
+    );
   }
 }
 ```

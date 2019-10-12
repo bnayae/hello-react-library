@@ -1,13 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import ExampleComponent from 'hellw-world'
+import { CompA, CompB } from "hello-react-library";
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <CompA />
+        <CompB value="xyz" />
       </div>
-    )
+    );
   }
 }

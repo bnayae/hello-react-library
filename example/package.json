@@ -1,6 +1,6 @@
 {
-  "name": "hellw-world-example",
-  "homepage": "https://bnayae.github.io/hellw-world",
+  "name": "hello-react-library-example",
+  "homepage": "https://bnayae.github.io/hello-react-library",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -9,7 +9,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
-    "hellw-world": "file:.."
+    "hello-react-library": "file:.."
   },
   "scripts": {
     "start": "react-scripts start",
